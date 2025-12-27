@@ -1,4 +1,4 @@
-# 📜 BudgetLedger: A Private Expense Tracker
+# 💰 BudgetLedger: A Private Expense Tracker
 
 **A powerful, offline-first budgeting tool for households, freelancers, and crypto users**
 
