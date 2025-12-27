@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Controls\April\April.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\August\August.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\BaseMonth.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\December\December.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\February\February.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\January\January.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\July\July.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\June\June.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\March\March.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\May\May.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\November\November.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\October\October.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Controls\September\September.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="vstudio.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
