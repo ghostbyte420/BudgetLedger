@@ -23,7 +23,7 @@ Tired of generic, subscription-based budgeting apps? **BudgetLedger** is a **Win
 | **Offline & Private** | Your data stays on your machine—no ads, no tracking, no subscriptions. |
 | **Crypto-Friendly** | Track Bitcoin, Ethereum, or other crypto payments alongside traditional methods. |
 | **Customizable UI** | Replace any picture you like with your own images. |
-| **Detailed Expense Tracking** | Log expenses, dates, payment methods, confirmation numbers, and business details. |
+| **Expense Tracking** | Log expenses, dates, payment methods, confirmation numbers, and business details. |
 | **Monthly Breakdowns** | Organize expenses by month and category (Household, Subscriptions, Vehicles, etc.). |
 | **SQLite Database** | Reliable, fast, and easy to back up. |
 | **No Bloat - No Extras** | Focused on *your* needs—no unnecessary features. |
