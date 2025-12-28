@@ -27,7 +27,7 @@ Tired of generic, subscription-based budgeting apps? **BudgetLedger** is a **Win
 | **Monthly Breakdowns** | Organize expenses by month and category (Household, Subscriptions, Vehicles, etc.). |
 | **SQLite Database** | Reliable, fast, and easy to back up. |
 | **No Bloat - No Extras** | Focused on *your* needs—no unnecessary features. |
-| **Export End-of-Month Reports** | Users can export .pdf files of their monthly expenses. |
+| **End-of-Month Reports** | Users can export .pdf files of their monthly expenses. |
 
 ---
 
