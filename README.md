@@ -27,6 +27,7 @@ Tired of generic, subscription-based budgeting apps? **BudgetLedger** is a **Win
 | **Monthly Breakdowns** | Organize expenses by month and category (Household, Subscriptions, Vehicles, etc.). |
 | **SQLite Database** | Reliable, fast, and easy to back up. |
 | **No Bloat - No Extras** | Focused on *your* needs—no unnecessary features. |
+| **Export End-of-Month Reports** | Users can export .pdf files of their monthly expenses. |
 
 ---
 
@@ -50,12 +51,10 @@ Tired of generic, subscription-based budgeting apps? **BudgetLedger** is a **Win
   `%LocalAppData%\BudgetLedger\budgetledger_<year>.sqlite`
 - Start adding expenses to any category (e.g., "Household," "Subscriptions").
 
+---
+
 ### **3. Customize Your Ledger**
 - **Add/Edit Expenses:** Double-click any cell in the `DataGridView`.
 - **Switch Months:** Click the month buttons at the bottom.
 - **Use the Calculator:** Quickly open the Windows Calculator from the menu.
 
----
-
-## **Future Plans**
-- **PDF/CSV Export:** Share reports with accountants.
