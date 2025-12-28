@@ -32,7 +32,6 @@ Tired of generic, subscription-based budgeting apps? **BudgetLedger** is a **Win
 ---
 
 ## **Who Is This For?**
-- **Freelancers & Small Business Owners** – Track deductible expenses and client payments.
 - **Households** – Manage monthly budgets, groceries, and bills.
 - **Crypto Users** – Log crypto transactions alongside cash/credit.
 - **Artistic Fans** – A budgeting tool that *doesn’t* look like a spreadsheet!
