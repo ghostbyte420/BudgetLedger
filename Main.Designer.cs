@@ -3,12 +3,12 @@
     partial class budgetLedgerMain
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,8 +23,8 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -46,9 +46,11 @@
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_feb = new PictureBox();
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jan = new PictureBox();
             budgetLedgerMain_menuStrip = new MenuStrip();
+            budgetLedgerMain_menuStrip_button_back = new ToolStripMenuItem();
             budgetLedgerMain_menuStrip_button_calculator = new ToolStripMenuItem();
             budgetLedgerMain_menuStrip_button_contacts = new ToolStripMenuItem();
             budgetLedgerMain_menuStrip_button_saveDatabase = new ToolStripMenuItem();
+            budgetLedgerMain_menuStrip_button_exportPDFReport = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)budgetLedgerMain_splitDisplay).BeginInit();
             budgetLedgerMain_splitDisplay.Panel1.SuspendLayout();
             budgetLedgerMain_splitDisplay.Panel2.SuspendLayout();
@@ -254,17 +256,25 @@
             // 
             // budgetLedgerMain_menuStrip
             // 
-            budgetLedgerMain_menuStrip.Items.AddRange(new ToolStripItem[] { budgetLedgerMain_menuStrip_button_calculator, budgetLedgerMain_menuStrip_button_contacts, budgetLedgerMain_menuStrip_button_saveDatabase });
+            budgetLedgerMain_menuStrip.Items.AddRange(new ToolStripItem[] { budgetLedgerMain_menuStrip_button_back, budgetLedgerMain_menuStrip_button_calculator, budgetLedgerMain_menuStrip_button_contacts, budgetLedgerMain_menuStrip_button_saveDatabase, budgetLedgerMain_menuStrip_button_exportPDFReport });
             budgetLedgerMain_menuStrip.Location = new Point(0, 0);
             budgetLedgerMain_menuStrip.Name = "budgetLedgerMain_menuStrip";
             budgetLedgerMain_menuStrip.Size = new Size(1686, 27);
             budgetLedgerMain_menuStrip.TabIndex = 1;
             budgetLedgerMain_menuStrip.Text = "menuStrip1";
             // 
+            // budgetLedgerMain_menuStrip_button_back
+            // 
+            budgetLedgerMain_menuStrip_button_back.Font = new Font("Segoe UI", 10F);
+            budgetLedgerMain_menuStrip_button_back.Image = Properties.Resources.bkdr_bck;
+            budgetLedgerMain_menuStrip_button_back.Name = "budgetLedgerMain_menuStrip_button_back";
+            budgetLedgerMain_menuStrip_button_back.Size = new Size(28, 23);
+            budgetLedgerMain_menuStrip_button_back.Click += budgetLedgerMain_menuStrip_button_back_Click;
+            // 
             // budgetLedgerMain_menuStrip_button_calculator
             // 
             budgetLedgerMain_menuStrip_button_calculator.Font = new Font("Segoe UI", 10F);
-            budgetLedgerMain_menuStrip_button_calculator.Margin = new Padding(1380, 0, 0, 0);
+            budgetLedgerMain_menuStrip_button_calculator.Margin = new Padding(1185, 0, 0, 0);
             budgetLedgerMain_menuStrip_button_calculator.Name = "budgetLedgerMain_menuStrip_button_calculator";
             budgetLedgerMain_menuStrip_button_calculator.Size = new Size(82, 23);
             budgetLedgerMain_menuStrip_button_calculator.Text = "Calculator";
@@ -285,6 +295,14 @@
             budgetLedgerMain_menuStrip_button_saveDatabase.Size = new Size(110, 23);
             budgetLedgerMain_menuStrip_button_saveDatabase.Text = "Save Database";
             budgetLedgerMain_menuStrip_button_saveDatabase.Click += budgetLedgerMain_menuStrip_button_saveDatabase_Click;
+            // 
+            // budgetLedgerMain_menuStrip_button_exportPDFReport
+            // 
+            budgetLedgerMain_menuStrip_button_exportPDFReport.Font = new Font("Segoe UI", 10F);
+            budgetLedgerMain_menuStrip_button_exportPDFReport.Name = "budgetLedgerMain_menuStrip_button_exportPDFReport";
+            budgetLedgerMain_menuStrip_button_exportPDFReport.Size = new Size(137, 23);
+            budgetLedgerMain_menuStrip_button_exportPDFReport.Text = "Export .PDF Report";
+            budgetLedgerMain_menuStrip_button_exportPDFReport.Click += budgetLedgerMain_menuStrip_button_exportPDFReport_Click;
             // 
             // budgetLedgerMain
             // 
@@ -346,5 +364,7 @@
         private ToolStripMenuItem budgetLedgerMain_menuStrip_button_calculator;
         private ToolStripMenuItem budgetLedgerMain_menuStrip_button_contacts;
         private ToolStripMenuItem budgetLedgerMain_menuStrip_button_saveDatabase;
+        private ToolStripMenuItem budgetLedgerMain_menuStrip_button_back;
+        private ToolStripMenuItem budgetLedgerMain_menuStrip_button_exportPDFReport;
     }
 }

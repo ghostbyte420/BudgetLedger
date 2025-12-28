@@ -123,6 +123,16 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bkdr_bck {
+            get {
+                object obj = ResourceManager.GetObject("bkdr_bck", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bkdr_dec {
             get {
                 object obj = ResourceManager.GetObject("bkdr_dec", resourceCulture);
@@ -546,6 +556,16 @@ namespace BudgetLedger.Properties {
         internal static System.Drawing.Bitmap bkgr_sep {
             get {
                 object obj = ResourceManager.GetObject("bkgr_sep", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bkgr_sp2 {
+            get {
+                object obj = ResourceManager.GetObject("bkgr_sp2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

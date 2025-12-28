@@ -9,6 +9,7 @@ internal static class LedgerServices
 
     public static LedgerDb Db { get; private set; } = null!;
     public static ExpenseRepository Expenses { get; private set; } = null!;
+    public static MonthSummaryRepository MonthSummaries { get; private set; } = null!;
 
     public static int LedgerYear { get; private set; }
 
@@ -25,6 +26,7 @@ internal static class LedgerServices
             Db = new LedgerDb(path);
             Db.Initialize();
             Expenses = new ExpenseRepository(Db);
+            MonthSummaries = new MonthSummaryRepository(Db);
         }
     }
 }

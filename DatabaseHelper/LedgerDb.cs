@@ -64,6 +64,15 @@ CREATE TABLE IF NOT EXISTS expense (
 );
 
 CREATE INDEX IF NOT EXISTS idx_expense_ymc ON expense(year, month, category);
+
+CREATE TABLE IF NOT EXISTS month_summary (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    year INTEGER NOT NULL,
+    month INTEGER NOT NULL,
+    monthly_start_total REAL NOT NULL,
+    monthly_end_total REAL NOT NULL,
+    UNIQUE(year, month)
+);
 ";
         cmd.ExecuteNonQuery();
     }

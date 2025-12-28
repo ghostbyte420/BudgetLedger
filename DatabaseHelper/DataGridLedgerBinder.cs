@@ -1,5 +1,6 @@
 using System;
 using System.Globalization;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace BudgetLedger.Data;
@@ -112,6 +113,13 @@ internal static class DataGridLedgerBinder
         if (id <= 0) return;
 
         LedgerServices.Expenses.Delete(id);
+
+        // Notify the main form to update the summary
+        if (grid.FindForm() is budgetLedgerMain mainForm)
+        {
+            var scope = (GridScope)grid.Tag!;
+            mainForm.NotifyExpenseChanged(scope.Month);
+        }
     }
 
     private static void GridOnCellValueChanged(object? sender, DataGridViewCellEventArgs e)
@@ -134,6 +142,12 @@ internal static class DataGridLedgerBinder
         else
         {
             LedgerServices.Expenses.Update(id, record);
+        }
+
+        // Notify the main form to update the summary
+        if (grid.FindForm() is budgetLedgerMain mainForm)
+        {
+            mainForm.NotifyExpenseChanged(scope.Month);
         }
     }
 
