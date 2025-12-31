@@ -46,7 +46,7 @@
             Name = "contacts";
             Opacity = 0.95D;
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Expense Ledger: Contacts";
+            Text = "Budget Ledger";
             ((System.ComponentModel.ISupportInitialize)contacts_webView21_pdfDisplay).EndInit();
             ResumeLayout(false);
         }
