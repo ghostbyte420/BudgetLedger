@@ -30,11 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(passwordPrompt));
             passwordPrompt_opacityPanel_darkTextBox_txtPassword_Label_enterPassword = new Label();
+            passwordPrompt_opacityPanel = new OpacityPanel();
             statusStrip1 = new StatusStrip();
             toolStripStatusLabel1 = new ToolStripStatusLabel();
             passwordPrompt_opacityPanel_darkTextBox_txtPassword_status = new ToolStripStatusLabel();
             toolStripStatusLabel3 = new ToolStripStatusLabel();
             passwordPrompt_opacityPanel_darkTextBox_txtPassword_button_submit = new Button();
+            passwordPrompt_opacityPanel_darkTextBox_txtPassword = new DarkTextBox();
+            passwordPrompt_opacityPanel.SuspendLayout();
             statusStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -47,6 +50,19 @@
             passwordPrompt_opacityPanel_darkTextBox_txtPassword_Label_enterPassword.Size = new Size(111, 20);
             passwordPrompt_opacityPanel_darkTextBox_txtPassword_Label_enterPassword.TabIndex = 0;
             passwordPrompt_opacityPanel_darkTextBox_txtPassword_Label_enterPassword.Text = "Enter Password:";
+            // 
+            // passwordPrompt_opacityPanel
+            // 
+            passwordPrompt_opacityPanel.BackColor = Color.Transparent;
+            passwordPrompt_opacityPanel.Controls.Add(statusStrip1);
+            passwordPrompt_opacityPanel.Controls.Add(passwordPrompt_opacityPanel_darkTextBox_txtPassword_button_submit);
+            passwordPrompt_opacityPanel.Controls.Add(passwordPrompt_opacityPanel_darkTextBox_txtPassword);
+            passwordPrompt_opacityPanel.Controls.Add(passwordPrompt_opacityPanel_darkTextBox_txtPassword_Label_enterPassword);
+            passwordPrompt_opacityPanel.Dock = DockStyle.Fill;
+            passwordPrompt_opacityPanel.Location = new Point(0, 0);
+            passwordPrompt_opacityPanel.Name = "passwordPrompt_opacityPanel";
+            passwordPrompt_opacityPanel.Size = new Size(383, 145);
+            passwordPrompt_opacityPanel.TabIndex = 1;
             // 
             // statusStrip1
             // 
@@ -88,16 +104,32 @@
             passwordPrompt_opacityPanel_darkTextBox_txtPassword_button_submit.UseVisualStyleBackColor = true;
             passwordPrompt_opacityPanel_darkTextBox_txtPassword_button_submit.Click += passwordPrompt_opacityPanel_darkTextBox_txtPassword_button_submit_Click;
             // 
+            // passwordPrompt_opacityPanel_darkTextBox_txtPassword
+            // 
+            passwordPrompt_opacityPanel_darkTextBox_txtPassword.BorderStyle = BorderStyle.FixedSingle;
+            passwordPrompt_opacityPanel_darkTextBox_txtPassword.Font = new Font("Segoe UI", 11F);
+            passwordPrompt_opacityPanel_darkTextBox_txtPassword.Location = new Point(13, 39);
+            passwordPrompt_opacityPanel_darkTextBox_txtPassword.Name = "passwordPrompt_opacityPanel_darkTextBox_txtPassword";
+            passwordPrompt_opacityPanel_darkTextBox_txtPassword.Size = new Size(357, 27);
+            passwordPrompt_opacityPanel_darkTextBox_txtPassword.TabIndex = 1;
+            passwordPrompt_opacityPanel_darkTextBox_txtPassword.UseSystemPasswordChar = true;
+            // 
             // passwordPrompt
             // 
             AcceptButton = passwordPrompt_opacityPanel_darkTextBox_txtPassword_button_submit;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(383, 145);
+            Controls.Add(passwordPrompt_opacityPanel);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "passwordPrompt";
+            Opacity = 0.95D;
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Budget Ledger";
+            TopMost = true;
+            passwordPrompt_opacityPanel.ResumeLayout(false);
+            passwordPrompt_opacityPanel.PerformLayout();
             statusStrip1.ResumeLayout(false);
             statusStrip1.PerformLayout();
             ResumeLayout(false);

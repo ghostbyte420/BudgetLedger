@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(budgetLedgerMain));
+            budgetLedgerMain_splitDisplay = new SplitDisplay();
+            budgetLedgerMain_splitDisplay_panel1_opacityPanel = new OpacityPanel();
+            budgetLedgerMain_splitDisplay_panel1_opacityPanel_homeScreen = new OpacityPanel();
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu = new OpacityPanel();
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_dec = new PictureBox();
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_nov = new PictureBox();
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_oct = new PictureBox();
@@ -47,6 +51,12 @@
             budgetLedgerMain_menuStrip_button_contacts = new ToolStripMenuItem();
             budgetLedgerMain_menuStrip_button_saveDatabase = new ToolStripMenuItem();
             budgetLedgerMain_menuStrip_button_exportPDFReport = new ToolStripMenuItem();
+            ((System.ComponentModel.ISupportInitialize)budgetLedgerMain_splitDisplay).BeginInit();
+            budgetLedgerMain_splitDisplay.Panel1.SuspendLayout();
+            budgetLedgerMain_splitDisplay.Panel2.SuspendLayout();
+            budgetLedgerMain_splitDisplay.SuspendLayout();
+            budgetLedgerMain_splitDisplay_panel1_opacityPanel.SuspendLayout();
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_dec).BeginInit();
             ((System.ComponentModel.ISupportInitialize)budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_nov).BeginInit();
             ((System.ComponentModel.ISupportInitialize)budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_oct).BeginInit();
@@ -61,6 +71,69 @@
             ((System.ComponentModel.ISupportInitialize)budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jan).BeginInit();
             budgetLedgerMain_menuStrip.SuspendLayout();
             SuspendLayout();
+            // 
+            // budgetLedgerMain_splitDisplay
+            // 
+            budgetLedgerMain_splitDisplay.BorderStyle = BorderStyle.FixedSingle;
+            budgetLedgerMain_splitDisplay.Dock = DockStyle.Fill;
+            budgetLedgerMain_splitDisplay.IsSplitterFixed = true;
+            budgetLedgerMain_splitDisplay.Location = new Point(0, 27);
+            budgetLedgerMain_splitDisplay.Name = "budgetLedgerMain_splitDisplay";
+            budgetLedgerMain_splitDisplay.Orientation = Orientation.Horizontal;
+            // 
+            // budgetLedgerMain_splitDisplay.Panel1
+            // 
+            budgetLedgerMain_splitDisplay.Panel1.Controls.Add(budgetLedgerMain_splitDisplay_panel1_opacityPanel);
+            // 
+            // budgetLedgerMain_splitDisplay.Panel2
+            // 
+            budgetLedgerMain_splitDisplay.Panel2.Controls.Add(budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu);
+            budgetLedgerMain_splitDisplay.Size = new Size(1686, 777);
+            budgetLedgerMain_splitDisplay.SplitterDistance = 593;
+            budgetLedgerMain_splitDisplay.SplitterWidth = 6;
+            budgetLedgerMain_splitDisplay.TabIndex = 0;
+            // 
+            // budgetLedgerMain_splitDisplay_panel1_opacityPanel
+            // 
+            budgetLedgerMain_splitDisplay_panel1_opacityPanel.BackColor = Color.Transparent;
+            budgetLedgerMain_splitDisplay_panel1_opacityPanel.Controls.Add(budgetLedgerMain_splitDisplay_panel1_opacityPanel_homeScreen);
+            budgetLedgerMain_splitDisplay_panel1_opacityPanel.Dock = DockStyle.Fill;
+            budgetLedgerMain_splitDisplay_panel1_opacityPanel.Location = new Point(0, 0);
+            budgetLedgerMain_splitDisplay_panel1_opacityPanel.Name = "budgetLedgerMain_splitDisplay_panel1_opacityPanel";
+            budgetLedgerMain_splitDisplay_panel1_opacityPanel.Size = new Size(1684, 591);
+            budgetLedgerMain_splitDisplay_panel1_opacityPanel.TabIndex = 0;
+            // 
+            // budgetLedgerMain_splitDisplay_panel1_opacityPanel_homeScreen
+            // 
+            budgetLedgerMain_splitDisplay_panel1_opacityPanel_homeScreen.BackColor = Color.Transparent;
+            budgetLedgerMain_splitDisplay_panel1_opacityPanel_homeScreen.BackgroundImage = Properties.Resources.img_001;
+            budgetLedgerMain_splitDisplay_panel1_opacityPanel_homeScreen.BackgroundImageLayout = ImageLayout.Stretch;
+            budgetLedgerMain_splitDisplay_panel1_opacityPanel_homeScreen.Dock = DockStyle.Fill;
+            budgetLedgerMain_splitDisplay_panel1_opacityPanel_homeScreen.Location = new Point(0, 0);
+            budgetLedgerMain_splitDisplay_panel1_opacityPanel_homeScreen.Name = "budgetLedgerMain_splitDisplay_panel1_opacityPanel_homeScreen";
+            budgetLedgerMain_splitDisplay_panel1_opacityPanel_homeScreen.Size = new Size(1684, 591);
+            budgetLedgerMain_splitDisplay_panel1_opacityPanel_homeScreen.TabIndex = 0;
+            // 
+            // budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu
+            // 
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu.BackColor = Color.Black;
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu.Controls.Add(budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_dec);
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu.Controls.Add(budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_nov);
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu.Controls.Add(budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_oct);
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu.Controls.Add(budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_sep);
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu.Controls.Add(budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_aug);
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu.Controls.Add(budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jul);
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu.Controls.Add(budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jun);
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu.Controls.Add(budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_may);
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu.Controls.Add(budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_apr);
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu.Controls.Add(budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_mar);
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu.Controls.Add(budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_feb);
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu.Controls.Add(budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jan);
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu.Dock = DockStyle.Fill;
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu.Location = new Point(0, 0);
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu.Name = "budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu";
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu.Size = new Size(1684, 176);
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu.TabIndex = 0;
             // 
             // budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_dec
             // 
@@ -237,6 +310,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1686, 804);
+            Controls.Add(budgetLedgerMain_splitDisplay);
             Controls.Add(budgetLedgerMain_menuStrip);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Icon = (Icon)resources.GetObject("$this.Icon");
@@ -245,6 +319,12 @@
             Name = "budgetLedgerMain";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Budget Ledger";
+            budgetLedgerMain_splitDisplay.Panel1.ResumeLayout(false);
+            budgetLedgerMain_splitDisplay.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)budgetLedgerMain_splitDisplay).EndInit();
+            budgetLedgerMain_splitDisplay.ResumeLayout(false);
+            budgetLedgerMain_splitDisplay_panel1_opacityPanel.ResumeLayout(false);
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_dec).EndInit();
             ((System.ComponentModel.ISupportInitialize)budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_nov).EndInit();
             ((System.ComponentModel.ISupportInitialize)budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_oct).EndInit();
