@@ -76,6 +76,7 @@
             // 
             budgetLedgerMain_splitDisplay.BorderStyle = BorderStyle.FixedSingle;
             budgetLedgerMain_splitDisplay.Dock = DockStyle.Fill;
+            budgetLedgerMain_splitDisplay.IsSplitterFixed = true;
             budgetLedgerMain_splitDisplay.Location = new Point(0, 27);
             budgetLedgerMain_splitDisplay.Name = "budgetLedgerMain_splitDisplay";
             budgetLedgerMain_splitDisplay.Orientation = Orientation.Horizontal;

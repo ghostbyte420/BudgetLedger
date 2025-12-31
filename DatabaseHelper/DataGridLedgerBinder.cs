@@ -64,19 +64,19 @@ internal static class DataGridLedgerBinder
 
                 row.Cells[RecordIdColumnName].Value = r.Id;
 
-                SetText(row, "What Did You Spend Money On?", r.Expense);
+                SetText(row, "Expense", r.Expense);
                 SetDate(row, "Date", r.Date);
-                SetText(row, "Why You Spent Money On This Expense?", r.Descriptor);
-                SetDecimal(row, "How Much Was Owed For This Expense?", r.AmountOwed);
-                SetDecimal(row, "How Much Did You Pay Toward This Expense?", r.AmountPaid);
-                SetText(row, "What Currency Type Was Used To Pay For This Expense?", r.Currency);
-                SetText(row, "What Payment Method Did You Use For This Expense?", r.PayMethod);
-                SetText(row, "If Credit, What Were The Last Four Digits Of The Card Number Used For This Expense?", r.LastFour);
-                SetText(row, "What Was The Confirmation Number Given To You After Payment For This Expense Was Made?", r.Confirmation);
-                SetDecimal(row, "Was There An Account Credit?", r.AccountCredit);
-                SetText(row, "Does The Company Have A Contact Phone Number?", r.Phone);
-                SetText(row, "Whom Did You Pay For Services Rendered?", r.Business);
-                SetBool(row, "Was This Expense Paid For The Month?", r.Paid);
+                SetText(row, "Descriptor", r.Descriptor);
+                SetDecimal(row, "AmountOwed", r.AmountOwed);
+                SetDecimal(row, "AmountPaid", r.AmountPaid);
+                SetText(row, "Currency", r.Currency);
+                SetText(row, "PaymentMethod", r.PayMethod);
+                SetText(row, "LastFour", r.LastFour);
+                SetText(row, "Confirmation", r.Confirmation);
+                SetDecimal(row, "AccountCredit", r.AccountCredit);
+                SetText(row, "Phone", r.Phone);
+                SetText(row, "Recipient", r.Business);
+                SetBool(row, "Paid", r.Paid);
             }
         }
         finally
@@ -166,19 +166,20 @@ internal static class DataGridLedgerBinder
             Year: LedgerServices.LedgerYear,
             Month: scope.Month,
             Category: scope.Category,
-            Expense: GetText(row, "What Did You Spend Money On?"),
+
+            Expense: GetText(row, "Expense"),
             Date: GetDate(row, "Date"),
-            Descriptor: GetText(row, "Why You Spent Money On This Expense?"),
-            AmountOwed: GetDecimal(row, "How Much Was Owed For This Expense?"),
-            AmountPaid: GetDecimal(row, "How Much Did You Pay Toward This Expense?"),
-            Currency: GetText(row, "What Currency Type Was Used To Pay For This Expense?"),
-            PayMethod: GetText(row, "What Payment Method Did You Use For This Expense?"),
-            LastFour: GetText(row, "If Credit, What Were The Last Four Digits Of The Card Number Used For This Expense?"),
-            Confirmation: GetText(row, "What Was The Confirmation Number Given To You After Payment For This Expense Was Made?"),
-            AccountCredit: GetDecimal(row, "Was There An Account Credit?"),
-            Phone: GetText(row, "Does The Company Have A Contact Phone Number?"),
-            Business: GetText(row, "Whom Did You Pay For Services Rendered?"),
-            Paid: GetBool(row, "Was This Expense Paid For The Month?")
+            Descriptor: GetText(row, "Descriptor"),
+            AmountOwed: GetDecimal(row, "AmountOwed"),
+            AmountPaid: GetDecimal(row, "AmountPaid"),
+            Currency: GetText(row, "Currency"),
+            PayMethod: GetText(row, "PaymentMethod"),
+            LastFour: GetText(row, "LastFour"),
+            Confirmation: GetText(row, "Confirmation"),
+            AccountCredit: GetDecimal(row, "AccountCredit"),
+            Phone: GetText(row, "Phone"),
+            Business: GetText(row, "Recipient"),
+            Paid: GetBool(row, "Paid")
         );
     }
 

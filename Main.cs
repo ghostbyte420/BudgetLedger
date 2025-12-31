@@ -12,6 +12,7 @@ using BudgetLedger.Controls.November;
 using BudgetLedger.Controls.October;
 using BudgetLedger.Controls.September;
 using BudgetLedger.Data;
+using Microsoft.Data.Sqlite;
 using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
@@ -23,6 +24,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
+using BudgetLedger.Password;
 
 namespace BudgetLedger
 {
@@ -45,6 +47,20 @@ namespace BudgetLedger
         public budgetLedgerMain()
         {
             InitializeComponent();
+
+            // Check if password file exists
+            string passwordFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "PasswordConfig.txt");
+            bool isFirstRun = !File.Exists(passwordFilePath);
+
+            // Show password prompt
+            using (passwordPrompt passwordPrompt = new passwordPrompt(isFirstRun))
+            {
+                if (passwordPrompt.ShowDialog() != DialogResult.OK)
+                {
+                    Environment.Exit(0); // Force the application to exit
+                    return;
+                }
+            }
 
             LedgerServices.Initialize(DateTime.Now.Year);
 
@@ -359,8 +375,15 @@ namespace BudgetLedger
             decimal total = 0;
             string[] categories =
             {
-                "Household", "Subscriptions", "State Taxes", "Vehicles", "Gas",
-                "Trips", "Food", "Frivelous", "Emergency"
+                #region Modify Categories As Needed
+
+                "Household", "Taxes", "Insurance", "Food", "Subscriptions",
+                "Familycare", "Education", "Medicalcare",
+                "Vehicles", "Vacation",
+                "Donations", "Gifts", "Frivolous",
+                "Emergency"
+
+                #endregion
             };
 
             foreach (var category in categories)
@@ -440,8 +463,12 @@ namespace BudgetLedger
 
         private void budgetLedgerMain_menuStrip_button_saveDatabase_Click(object sender, EventArgs e)
         {
+            // Extract the database path from the connection string
+            var connectionStringBuilder = new SqliteConnectionStringBuilder(LedgerServices.Db.ConnectionString);
+            string dbPath = connectionStringBuilder.DataSource;
+
             MessageBox.Show(
-                "Saved automatically. Database location: %LocalAppData%\\BudgetLedger\\budgetledger_<year>.sqlite",
+                $"Saved automatically. Database location:\n{dbPath}",
                 "BudgetLedger",
                 MessageBoxButtons.OK,
                 MessageBoxIcon.Information);
@@ -483,8 +510,7 @@ namespace BudgetLedger
             // Hide the menu strip
             budgetLedgerMain_menuStrip.Visible = false;
         }
-
-        
+      
         private void budgetLedgerMain_menuStrip_button_exportPDFReport_Click(object sender, EventArgs e)
         {
             // Acknowledge the QuestPDF license
@@ -498,8 +524,15 @@ namespace BudgetLedger
             // 2. Gather data for the current month
             var categories = new string[]
             {
-        "Household", "Subscriptions", "State Taxes", "Vehicles", "Gas",
-        "Trips", "Food", "Frivelous", "Emergency"
+                #region Modify Categories As Needed
+
+                "Household", "Taxes", "Insurance", "Food", "Subscriptions",
+                "Familycare", "Education", "Medicalcare",
+                "Vehicles", "Vacation",
+                "Donations", "Gifts", "Frivolous",
+                "Emergency"
+
+                #endregion
             };
 
             // 3. Generate the PDF document

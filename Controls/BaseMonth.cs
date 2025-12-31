@@ -44,7 +44,11 @@ namespace BudgetLedger
             // Tab names and order
             string[] tabNames =
             {
-                "Header", "Household", "Subscriptions", "State Taxes", "Vehicles", "Gas", "Trips", "Food", "Frivelous", "Emergency"
+                #region Modify Categories As Needed
+
+                "Header", "Household", "Taxes", "Insurance", "Food", "Subscriptions", "Familycare", "Education", "Medicalcare", "Vehicles", "Vacation", "Donations", "Gifts", "Frivolous", "Emergency"
+
+                #endregion
             };
 
             foreach (string tabName in tabNames)
@@ -181,7 +185,7 @@ namespace BudgetLedger
             grid.Columns.Add(new DataGridViewTextBoxColumn
             {
                 HeaderText = "Expense",
-                Name = "What Did You Spend Money On?",
+                Name = "Expense",
                 Width = 175,
                 DefaultCellStyle = { Alignment = DataGridViewContentAlignment.MiddleLeft, Font = new Font("Segoe UI", 9F) }
             });
@@ -199,7 +203,7 @@ namespace BudgetLedger
             grid.Columns.Add(new DataGridViewTextBoxColumn
             {
                 HeaderText = "Descriptor",
-                Name = "Why You Spent Money On This Expense?",
+                Name = "Descriptor",
                 Width = 175,
                 DefaultCellStyle = { Alignment = DataGridViewContentAlignment.MiddleLeft, Font = new Font("Segoe UI", 9F) }
             });
@@ -208,7 +212,7 @@ namespace BudgetLedger
             DataGridViewTextBoxColumn amountOwedColumn = new DataGridViewTextBoxColumn
             {
                 HeaderText = "Amount Owed",
-                Name = "How Much Was Owed For This Expense?",
+                Name = "AmountOwed",
                 Width = 130,
                 DefaultCellStyle = { Alignment = DataGridViewContentAlignment.MiddleRight, Font = new Font("Segoe UI", 9F), Format = "N2" }
             };
@@ -220,7 +224,7 @@ namespace BudgetLedger
             DataGridViewTextBoxColumn amountPaidColumn = new DataGridViewTextBoxColumn
             {
                 HeaderText = "Amount Paid",
-                Name = "How Much Did You Pay Toward This Expense?",
+                Name = "AmountPaid",
                 Width = 130,
                 DefaultCellStyle = { Alignment = DataGridViewContentAlignment.MiddleRight, Font = new Font("Segoe UI", 9F), Format = "N2" }
             };
@@ -232,7 +236,7 @@ namespace BudgetLedger
             DataGridViewTextBoxColumn currencyColumn = new DataGridViewTextBoxColumn
             {
                 HeaderText = "Currency",
-                Name = "What Currency Type Was Used To Pay For This Expense?",
+                Name = "Currency",
                 Width = 100,
                 DefaultCellStyle = { Alignment = DataGridViewContentAlignment.MiddleCenter, Font = new Font("Segoe UI", 9F) }
             };
@@ -244,7 +248,7 @@ namespace BudgetLedger
             grid.Columns.Add(new DataGridViewComboBoxColumn
             {
                 HeaderText = "Pay Method",
-                Name = "What Payment Method Did You Use For This Expense?",
+                Name = "PaymentMethod",
                 Items = { "Credit", "Cash", "Crypto", "Voucher" },
                 Width = 120,
                 DefaultCellStyle = { Alignment = DataGridViewContentAlignment.MiddleLeft, Font = new Font("Segoe UI", 9F) }
@@ -254,7 +258,7 @@ namespace BudgetLedger
             DataGridViewTextBoxColumn lastFourDigitsColumn = new DataGridViewTextBoxColumn
             {
                 HeaderText = "Last Four",
-                Name = "If Credit, What Were The Last Four Digits Of The Card Number Used For This Expense?",
+                Name = "LastFour",
                 Width = 100,
                 DefaultCellStyle = { Alignment = DataGridViewContentAlignment.MiddleCenter, Font = new Font("Segoe UI", 9F) }
             };
@@ -265,7 +269,7 @@ namespace BudgetLedger
             grid.Columns.Add(new DataGridViewTextBoxColumn
             {
                 HeaderText = "Confirmation #",
-                Name = "What Was The Confirmation Number Given To You After Payment For This Expense Was Made?",
+                Name = "Confirmation",
                 Width = 150,
                 DefaultCellStyle = { Alignment = DataGridViewContentAlignment.MiddleLeft, Font = new Font("Segoe UI", 9F) }
             });
@@ -274,7 +278,7 @@ namespace BudgetLedger
             grid.Columns.Add(new DataGridViewTextBoxColumn
             {
                 HeaderText = "Account Credit?",
-                Name = "Was There An Account Credit?",
+                Name = "AccountCredit",
                 Width = 150,
                 DefaultCellStyle = { Alignment = DataGridViewContentAlignment.MiddleRight, Font = new Font("Segoe UI", 9F), Format = "N2" }
             });
@@ -283,16 +287,16 @@ namespace BudgetLedger
             grid.Columns.Add(new DataGridViewTextBoxColumn
             {
                 HeaderText = "Phone #",
-                Name = "Does The Company Have A Contact Phone Number?",
+                Name = "Phone",
                 Width = 120,
                 DefaultCellStyle = { Alignment = DataGridViewContentAlignment.MiddleLeft, Font = new Font("Segoe UI", 9F) }
             });
 
-            // Business Name (Left-aligned)
+            // Recipient (Left-aligned)
             grid.Columns.Add(new DataGridViewTextBoxColumn
             {
-                HeaderText = "Business Name",
-                Name = "Whom Did You Pay For Services Rendered?",
+                HeaderText = "Recipient",
+                Name = "Recipient",
                 Width = 150,
                 DefaultCellStyle = { Alignment = DataGridViewContentAlignment.MiddleLeft, Font = new Font("Segoe UI", 9F) }
             });
@@ -301,7 +305,7 @@ namespace BudgetLedger
             DataGridViewCheckBoxColumn paidColumn = new DataGridViewCheckBoxColumn
             {
                 HeaderText = "Paid",
-                Name = "Was This Expense Paid For The Month?",
+                Name = "Paid",
                 Width = 75,
                 DefaultCellStyle = { Alignment = DataGridViewContentAlignment.MiddleCenter, Font = new Font("Segoe UI", 9F) }
             };

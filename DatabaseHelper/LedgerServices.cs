@@ -19,9 +19,20 @@ internal static class LedgerServices
         {
             LedgerYear = year;
 
+            #region Save Into AppData: Local (Recommended For Desktops)
+            /*
             var appData = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
             var dir = Path.Combine(appData, "BudgetLedger");
             var path = Path.Combine(dir, $"budgetledger_{year}.sqlite");
+            */
+            #endregion
+
+            #region Save Into Root Directory (Run Application From USB)
+
+            var rootDir = AppDomain.CurrentDomain.BaseDirectory;
+            var path = Path.Combine(rootDir, $"budgetledger_{year}.sqlite");
+
+            #endregion
 
             Db = new LedgerDb(path);
             Db.Initialize();
