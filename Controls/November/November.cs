@@ -37,7 +37,7 @@ namespace BudgetLedger.Controls.November
                 Panel headerPanel = new Panel
                 {
                     Dock = DockStyle.Fill,
-                    BackgroundImage = Properties.Resources.bkgr_nov,
+                    BackgroundImage = Properties.Resources.mnth_nov,
                     BackgroundImageLayout = ImageLayout.Stretch
                 };
 
@@ -46,7 +46,7 @@ namespace BudgetLedger.Controls.November
 
                 PictureBox foregroundPictureBox = new PictureBox
                 {
-                    Image = Properties.Resources.head_nov,
+                    Image = Properties.Resources.hedr_nov,
                     SizeMode = PictureBoxSizeMode.AutoSize,
                     BackColor = Color.Transparent
                 };

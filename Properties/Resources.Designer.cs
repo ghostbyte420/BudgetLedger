@@ -63,9 +63,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_apr {
+        internal static System.Drawing.Bitmap butn_apr {
             get {
-                object obj = ResourceManager.GetObject("bkdr_apr", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_apr", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_apr_c {
+        internal static System.Drawing.Bitmap butn_apr_c {
             get {
-                object obj = ResourceManager.GetObject("bkdr_apr_c", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_apr_c", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_apr_h {
+        internal static System.Drawing.Bitmap butn_apr_cg {
             get {
-                object obj = ResourceManager.GetObject("bkdr_apr_h", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_apr_cg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_aug {
+        internal static System.Drawing.Bitmap butn_apr_h {
             get {
-                object obj = ResourceManager.GetObject("bkdr_aug", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_apr_h", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_aug_c {
+        internal static System.Drawing.Bitmap butn_aug {
             get {
-                object obj = ResourceManager.GetObject("bkdr_aug_c", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_aug", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_aug_h {
+        internal static System.Drawing.Bitmap butn_aug_c {
             get {
-                object obj = ResourceManager.GetObject("bkdr_aug_h", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_aug_c", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_bck {
+        internal static System.Drawing.Bitmap butn_aug_cg {
             get {
-                object obj = ResourceManager.GetObject("bkdr_bck", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_aug_cg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_dec {
+        internal static System.Drawing.Bitmap butn_aug_h {
             get {
-                object obj = ResourceManager.GetObject("bkdr_dec", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_aug_h", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_dec_c {
+        internal static System.Drawing.Bitmap butn_bck {
             get {
-                object obj = ResourceManager.GetObject("bkdr_dec_c", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_bck", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,9 +153,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_dec_h {
+        internal static System.Drawing.Bitmap butn_bck_c {
             get {
-                object obj = ResourceManager.GetObject("bkdr_dec_h", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_bck_c", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +163,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_feb {
+        internal static System.Drawing.Bitmap butn_dec {
             get {
-                object obj = ResourceManager.GetObject("bkdr_feb", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_dec", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,9 +173,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_feb_c {
+        internal static System.Drawing.Bitmap butn_dec_c {
             get {
-                object obj = ResourceManager.GetObject("bkdr_feb_c", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_dec_c", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +183,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_feb_h {
+        internal static System.Drawing.Bitmap butn_dec_cg {
             get {
-                object obj = ResourceManager.GetObject("bkdr_feb_h", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_dec_cg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +193,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_jan {
+        internal static System.Drawing.Bitmap butn_dec_h {
             get {
-                object obj = ResourceManager.GetObject("bkdr_jan", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_dec_h", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +203,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_jan_c {
+        internal static System.Drawing.Bitmap butn_feb {
             get {
-                object obj = ResourceManager.GetObject("bkdr_jan_c", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_feb", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +213,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_jan_h {
+        internal static System.Drawing.Bitmap butn_feb_c {
             get {
-                object obj = ResourceManager.GetObject("bkdr_jan_h", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_feb_c", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +223,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_jul {
+        internal static System.Drawing.Bitmap butn_feb_cg {
             get {
-                object obj = ResourceManager.GetObject("bkdr_jul", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_feb_cg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +233,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_jul_c {
+        internal static System.Drawing.Bitmap butn_feb_h {
             get {
-                object obj = ResourceManager.GetObject("bkdr_jul_c", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_feb_h", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +243,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_jul_h {
+        internal static System.Drawing.Bitmap butn_jan {
             get {
-                object obj = ResourceManager.GetObject("bkdr_jul_h", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_jan", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +253,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_jun {
+        internal static System.Drawing.Bitmap butn_jan_c {
             get {
-                object obj = ResourceManager.GetObject("bkdr_jun", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_jan_c", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,9 +263,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_jun_c {
+        internal static System.Drawing.Bitmap butn_jan_cg {
             get {
-                object obj = ResourceManager.GetObject("bkdr_jun_c", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_jan_cg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,9 +273,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_jun_h {
+        internal static System.Drawing.Bitmap butn_jan_h {
             get {
-                object obj = ResourceManager.GetObject("bkdr_jun_h", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_jan_h", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -283,9 +283,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_mar {
+        internal static System.Drawing.Bitmap butn_jul {
             get {
-                object obj = ResourceManager.GetObject("bkdr_mar", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_jul", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -293,9 +293,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_mar_c {
+        internal static System.Drawing.Bitmap butn_jul_c {
             get {
-                object obj = ResourceManager.GetObject("bkdr_mar_c", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_jul_c", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,9 +303,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_mar_h {
+        internal static System.Drawing.Bitmap butn_jul_cg {
             get {
-                object obj = ResourceManager.GetObject("bkdr_mar_h", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_jul_cg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -313,9 +313,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_may {
+        internal static System.Drawing.Bitmap butn_jul_h {
             get {
-                object obj = ResourceManager.GetObject("bkdr_may", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_jul_h", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,9 +323,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_may_c {
+        internal static System.Drawing.Bitmap butn_jun {
             get {
-                object obj = ResourceManager.GetObject("bkdr_may_c", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_jun", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -333,9 +333,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_may_h {
+        internal static System.Drawing.Bitmap butn_jun_c {
             get {
-                object obj = ResourceManager.GetObject("bkdr_may_h", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_jun_c", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -343,9 +343,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_nov {
+        internal static System.Drawing.Bitmap butn_jun_cg {
             get {
-                object obj = ResourceManager.GetObject("bkdr_nov", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_jun_cg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -353,9 +353,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_nov_c {
+        internal static System.Drawing.Bitmap butn_jun_h {
             get {
-                object obj = ResourceManager.GetObject("bkdr_nov_c", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_jun_h", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -363,9 +363,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_nov_h {
+        internal static System.Drawing.Bitmap butn_mar {
             get {
-                object obj = ResourceManager.GetObject("bkdr_nov_h", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_mar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -373,9 +373,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_oct {
+        internal static System.Drawing.Bitmap butn_mar_c {
             get {
-                object obj = ResourceManager.GetObject("bkdr_oct", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_mar_c", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -383,9 +383,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_oct_c {
+        internal static System.Drawing.Bitmap butn_mar_cg {
             get {
-                object obj = ResourceManager.GetObject("bkdr_oct_c", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_mar_cg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -393,9 +393,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_oct_h {
+        internal static System.Drawing.Bitmap butn_mar_h {
             get {
-                object obj = ResourceManager.GetObject("bkdr_oct_h", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_mar_h", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -403,9 +403,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_sep {
+        internal static System.Drawing.Bitmap butn_may {
             get {
-                object obj = ResourceManager.GetObject("bkdr_sep", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_may", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -413,9 +413,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_sep_c {
+        internal static System.Drawing.Bitmap butn_may_c {
             get {
-                object obj = ResourceManager.GetObject("bkdr_sep_c", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_may_c", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -423,9 +423,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkdr_sep_h {
+        internal static System.Drawing.Bitmap butn_may_cg {
             get {
-                object obj = ResourceManager.GetObject("bkdr_sep_h", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_may_cg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -433,9 +433,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkgr_apr {
+        internal static System.Drawing.Bitmap butn_may_h {
             get {
-                object obj = ResourceManager.GetObject("bkgr_apr", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_may_h", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -443,9 +443,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkgr_aug {
+        internal static System.Drawing.Bitmap butn_nov {
             get {
-                object obj = ResourceManager.GetObject("bkgr_aug", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_nov", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -453,9 +453,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkgr_dec {
+        internal static System.Drawing.Bitmap butn_nov_c {
             get {
-                object obj = ResourceManager.GetObject("bkgr_dec", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_nov_c", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -463,9 +463,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkgr_feb {
+        internal static System.Drawing.Bitmap butn_nov_cg {
             get {
-                object obj = ResourceManager.GetObject("bkgr_feb", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_nov_cg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -473,9 +473,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkgr_jan {
+        internal static System.Drawing.Bitmap butn_nov_h {
             get {
-                object obj = ResourceManager.GetObject("bkgr_jan", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_nov_h", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -483,9 +483,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkgr_jul {
+        internal static System.Drawing.Bitmap butn_oct {
             get {
-                object obj = ResourceManager.GetObject("bkgr_jul", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_oct", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -493,9 +493,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkgr_jun {
+        internal static System.Drawing.Bitmap butn_oct_c {
             get {
-                object obj = ResourceManager.GetObject("bkgr_jun", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_oct_c", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -503,9 +503,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkgr_leg {
+        internal static System.Drawing.Bitmap butn_oct_cg {
             get {
-                object obj = ResourceManager.GetObject("bkgr_leg", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_oct_cg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -513,9 +513,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkgr_mar {
+        internal static System.Drawing.Bitmap butn_oct_h {
             get {
-                object obj = ResourceManager.GetObject("bkgr_mar", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_oct_h", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -523,9 +523,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkgr_may {
+        internal static System.Drawing.Bitmap butn_sep {
             get {
-                object obj = ResourceManager.GetObject("bkgr_may", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_sep", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -533,9 +533,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkgr_nov {
+        internal static System.Drawing.Bitmap butn_sep_c {
             get {
-                object obj = ResourceManager.GetObject("bkgr_nov", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_sep_c", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -543,9 +543,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkgr_oct {
+        internal static System.Drawing.Bitmap butn_sep_cg {
             get {
-                object obj = ResourceManager.GetObject("bkgr_oct", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_sep_cg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -553,9 +553,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkgr_sep {
+        internal static System.Drawing.Bitmap butn_sep_h {
             get {
-                object obj = ResourceManager.GetObject("bkgr_sep", resourceCulture);
+                object obj = ResourceManager.GetObject("butn_sep_h", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -563,9 +563,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bkgr_sp2 {
+        internal static System.Drawing.Bitmap hedr_apr {
             get {
-                object obj = ResourceManager.GetObject("bkgr_sp2", resourceCulture);
+                object obj = ResourceManager.GetObject("hedr_apr", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -573,9 +573,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap head_apr {
+        internal static System.Drawing.Bitmap hedr_aug {
             get {
-                object obj = ResourceManager.GetObject("head_apr", resourceCulture);
+                object obj = ResourceManager.GetObject("hedr_aug", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -583,9 +583,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap head_aug {
+        internal static System.Drawing.Bitmap hedr_dec {
             get {
-                object obj = ResourceManager.GetObject("head_aug", resourceCulture);
+                object obj = ResourceManager.GetObject("hedr_dec", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -593,9 +593,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap head_dec {
+        internal static System.Drawing.Bitmap hedr_feb {
             get {
-                object obj = ResourceManager.GetObject("head_dec", resourceCulture);
+                object obj = ResourceManager.GetObject("hedr_feb", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -603,9 +603,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap head_feb {
+        internal static System.Drawing.Bitmap hedr_jan {
             get {
-                object obj = ResourceManager.GetObject("head_feb", resourceCulture);
+                object obj = ResourceManager.GetObject("hedr_jan", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -613,9 +613,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap head_jan {
+        internal static System.Drawing.Bitmap hedr_jul {
             get {
-                object obj = ResourceManager.GetObject("head_jan", resourceCulture);
+                object obj = ResourceManager.GetObject("hedr_jul", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -623,9 +623,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap head_jul {
+        internal static System.Drawing.Bitmap hedr_jun {
             get {
-                object obj = ResourceManager.GetObject("head_jul", resourceCulture);
+                object obj = ResourceManager.GetObject("hedr_jun", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -633,9 +633,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap head_jun {
+        internal static System.Drawing.Bitmap hedr_mar {
             get {
-                object obj = ResourceManager.GetObject("head_jun", resourceCulture);
+                object obj = ResourceManager.GetObject("hedr_mar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -643,9 +643,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap head_mar {
+        internal static System.Drawing.Bitmap hedr_may {
             get {
-                object obj = ResourceManager.GetObject("head_mar", resourceCulture);
+                object obj = ResourceManager.GetObject("hedr_may", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -653,9 +653,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap head_may {
+        internal static System.Drawing.Bitmap hedr_nov {
             get {
-                object obj = ResourceManager.GetObject("head_may", resourceCulture);
+                object obj = ResourceManager.GetObject("hedr_nov", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -663,9 +663,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap head_nov {
+        internal static System.Drawing.Bitmap hedr_oct {
             get {
-                object obj = ResourceManager.GetObject("head_nov", resourceCulture);
+                object obj = ResourceManager.GetObject("hedr_oct", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -673,9 +673,9 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap head_oct {
+        internal static System.Drawing.Bitmap hedr_sep {
             get {
-                object obj = ResourceManager.GetObject("head_oct", resourceCulture);
+                object obj = ResourceManager.GetObject("hedr_sep", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -683,9 +683,149 @@ namespace BudgetLedger.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap head_sep {
+        internal static System.Drawing.Bitmap img_001 {
             get {
-                object obj = ResourceManager.GetObject("head_sep", resourceCulture);
+                object obj = ResourceManager.GetObject("img_001", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_002 {
+            get {
+                object obj = ResourceManager.GetObject("img_002", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_003 {
+            get {
+                object obj = ResourceManager.GetObject("img_003", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mnth_apr {
+            get {
+                object obj = ResourceManager.GetObject("mnth_apr", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mnth_aug {
+            get {
+                object obj = ResourceManager.GetObject("mnth_aug", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mnth_dec {
+            get {
+                object obj = ResourceManager.GetObject("mnth_dec", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mnth_feb {
+            get {
+                object obj = ResourceManager.GetObject("mnth_feb", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mnth_jan {
+            get {
+                object obj = ResourceManager.GetObject("mnth_jan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mnth_jul {
+            get {
+                object obj = ResourceManager.GetObject("mnth_jul", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mnth_jun {
+            get {
+                object obj = ResourceManager.GetObject("mnth_jun", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mnth_mar {
+            get {
+                object obj = ResourceManager.GetObject("mnth_mar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mnth_may {
+            get {
+                object obj = ResourceManager.GetObject("mnth_may", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mnth_nov {
+            get {
+                object obj = ResourceManager.GetObject("mnth_nov", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mnth_oct {
+            get {
+                object obj = ResourceManager.GetObject("mnth_oct", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mnth_sep {
+            get {
+                object obj = ResourceManager.GetObject("mnth_sep", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

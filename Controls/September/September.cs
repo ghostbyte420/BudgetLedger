@@ -37,7 +37,7 @@ namespace BudgetLedger.Controls.September
                 Panel headerPanel = new Panel
                 {
                     Dock = DockStyle.Fill,
-                    BackgroundImage = Properties.Resources.bkgr_sep,
+                    BackgroundImage = Properties.Resources.mnth_sep,
                     BackgroundImageLayout = ImageLayout.Stretch
                 };
 
@@ -46,7 +46,7 @@ namespace BudgetLedger.Controls.September
 
                 PictureBox foregroundPictureBox = new PictureBox
                 {
-                    Image = Properties.Resources.head_sep,
+                    Image = Properties.Resources.hedr_sep,
                     SizeMode = PictureBoxSizeMode.AutoSize,
                     BackColor = Color.Transparent
                 };

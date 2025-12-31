@@ -105,7 +105,7 @@
             // budgetLedgerMain_splitDisplay_panel1_opacityPanel_homeScreen
             // 
             budgetLedgerMain_splitDisplay_panel1_opacityPanel_homeScreen.BackColor = Color.Transparent;
-            budgetLedgerMain_splitDisplay_panel1_opacityPanel_homeScreen.BackgroundImage = Properties.Resources.bkgr_leg;
+            budgetLedgerMain_splitDisplay_panel1_opacityPanel_homeScreen.BackgroundImage = Properties.Resources.img_001;
             budgetLedgerMain_splitDisplay_panel1_opacityPanel_homeScreen.BackgroundImageLayout = ImageLayout.Stretch;
             budgetLedgerMain_splitDisplay_panel1_opacityPanel_homeScreen.Dock = DockStyle.Fill;
             budgetLedgerMain_splitDisplay_panel1_opacityPanel_homeScreen.Location = new Point(0, 0);
@@ -136,7 +136,7 @@
             // 
             // budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_dec
             // 
-            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_dec.Image = Properties.Resources.bkdr_dec;
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_dec.Image = Properties.Resources.butn_dec;
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_dec.Location = new Point(1542, 4);
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_dec.Name = "budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_dec";
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_dec.Size = new Size(137, 173);
@@ -146,7 +146,7 @@
             // 
             // budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_nov
             // 
-            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_nov.Image = Properties.Resources.bkdr_nov;
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_nov.Image = Properties.Resources.butn_nov;
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_nov.Location = new Point(1402, 4);
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_nov.Name = "budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_nov";
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_nov.Size = new Size(137, 173);
@@ -156,7 +156,7 @@
             // 
             // budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_oct
             // 
-            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_oct.Image = Properties.Resources.bkdr_oct;
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_oct.Image = Properties.Resources.butn_oct;
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_oct.Location = new Point(1262, 4);
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_oct.Name = "budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_oct";
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_oct.Size = new Size(137, 173);
@@ -166,7 +166,7 @@
             // 
             // budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_sep
             // 
-            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_sep.Image = Properties.Resources.bkdr_sep;
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_sep.Image = Properties.Resources.butn_sep;
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_sep.Location = new Point(1122, 4);
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_sep.Name = "budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_sep";
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_sep.Size = new Size(137, 173);
@@ -176,7 +176,7 @@
             // 
             // budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_aug
             // 
-            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_aug.Image = Properties.Resources.bkdr_aug;
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_aug.Image = Properties.Resources.butn_aug;
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_aug.Location = new Point(982, 4);
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_aug.Name = "budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_aug";
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_aug.Size = new Size(137, 173);
@@ -186,7 +186,7 @@
             // 
             // budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jul
             // 
-            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jul.Image = Properties.Resources.bkdr_jul;
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jul.Image = Properties.Resources.butn_jul;
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jul.Location = new Point(842, 4);
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jul.Name = "budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jul";
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jul.Size = new Size(137, 173);
@@ -196,7 +196,7 @@
             // 
             // budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jun
             // 
-            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jun.Image = Properties.Resources.bkdr_jun;
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jun.Image = Properties.Resources.butn_jun;
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jun.Location = new Point(702, 4);
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jun.Name = "budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jun";
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jun.Size = new Size(137, 173);
@@ -206,7 +206,7 @@
             // 
             // budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_may
             // 
-            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_may.Image = Properties.Resources.bkdr_may;
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_may.Image = Properties.Resources.butn_may;
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_may.Location = new Point(562, 4);
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_may.Name = "budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_may";
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_may.Size = new Size(137, 173);
@@ -216,7 +216,7 @@
             // 
             // budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_apr
             // 
-            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_apr.Image = Properties.Resources.bkdr_apr;
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_apr.Image = Properties.Resources.butn_apr;
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_apr.Location = new Point(422, 4);
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_apr.Name = "budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_apr";
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_apr.Size = new Size(137, 173);
@@ -226,7 +226,7 @@
             // 
             // budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_mar
             // 
-            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_mar.Image = Properties.Resources.bkdr_mar;
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_mar.Image = Properties.Resources.butn_mar;
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_mar.Location = new Point(282, 3);
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_mar.Name = "budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_mar";
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_mar.Size = new Size(137, 173);
@@ -236,7 +236,7 @@
             // 
             // budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_feb
             // 
-            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_feb.Image = Properties.Resources.bkdr_feb;
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_feb.Image = Properties.Resources.butn_feb;
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_feb.Location = new Point(142, 4);
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_feb.Name = "budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_feb";
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_feb.Size = new Size(137, 173);
@@ -246,7 +246,7 @@
             // 
             // budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jan
             // 
-            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jan.Image = Properties.Resources.bkdr_jan;
+            budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jan.Image = Properties.Resources.butn_jan;
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jan.Location = new Point(2, 4);
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jan.Name = "budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jan";
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu_pictureBox_button_jan.Size = new Size(137, 173);
@@ -266,7 +266,7 @@
             // budgetLedgerMain_menuStrip_button_back
             // 
             budgetLedgerMain_menuStrip_button_back.Font = new Font("Segoe UI", 10F);
-            budgetLedgerMain_menuStrip_button_back.Image = Properties.Resources.bkdr_bck;
+            budgetLedgerMain_menuStrip_button_back.Image = Properties.Resources.butn_bck;
             budgetLedgerMain_menuStrip_button_back.Name = "budgetLedgerMain_menuStrip_button_back";
             budgetLedgerMain_menuStrip_button_back.Size = new Size(28, 23);
             budgetLedgerMain_menuStrip_button_back.Click += budgetLedgerMain_menuStrip_button_back_Click;

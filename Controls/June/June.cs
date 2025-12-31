@@ -37,7 +37,7 @@ namespace BudgetLedger.Controls.June
                 Panel headerPanel = new Panel
                 {
                     Dock = DockStyle.Fill,
-                    BackgroundImage = Properties.Resources.bkgr_jun,
+                    BackgroundImage = Properties.Resources.mnth_jun,
                     BackgroundImageLayout = ImageLayout.Stretch
                 };
 
@@ -46,7 +46,7 @@ namespace BudgetLedger.Controls.June
 
                 PictureBox foregroundPictureBox = new PictureBox
                 {
-                    Image = Properties.Resources.head_jun,
+                    Image = Properties.Resources.hedr_jun,
                     SizeMode = PictureBoxSizeMode.AutoSize,
                     BackColor = Color.Transparent
                 };

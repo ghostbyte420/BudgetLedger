@@ -37,7 +37,7 @@ namespace BudgetLedger.Controls.May
                 Panel headerPanel = new Panel
                 {
                     Dock = DockStyle.Fill,
-                    BackgroundImage = Properties.Resources.bkgr_may,
+                    BackgroundImage = Properties.Resources.mnth_may,
                     BackgroundImageLayout = ImageLayout.Stretch
                 };
 
@@ -46,7 +46,7 @@ namespace BudgetLedger.Controls.May
 
                 PictureBox foregroundPictureBox = new PictureBox
                 {
-                    Image = Properties.Resources.head_may,
+                    Image = Properties.Resources.hedr_may,
                     SizeMode = PictureBoxSizeMode.AutoSize,
                     BackColor = Color.Transparent
                 };

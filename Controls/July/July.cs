@@ -37,7 +37,7 @@ namespace BudgetLedger.Controls.July
                 Panel headerPanel = new Panel
                 {
                     Dock = DockStyle.Fill,
-                    BackgroundImage = Properties.Resources.bkgr_jul,
+                    BackgroundImage = Properties.Resources.mnth_jul,
                     BackgroundImageLayout = ImageLayout.Stretch
                 };
 
@@ -46,7 +46,7 @@ namespace BudgetLedger.Controls.July
 
                 PictureBox foregroundPictureBox = new PictureBox
                 {
-                    Image = Properties.Resources.head_jul,
+                    Image = Properties.Resources.hedr_jul,
                     SizeMode = PictureBoxSizeMode.AutoSize,
                     BackColor = Color.Transparent
                 };

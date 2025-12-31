@@ -33,7 +33,7 @@ namespace BudgetLedger.Controls.January
                 Panel headerPanel = new Panel
                 {
                     Dock = DockStyle.Fill,
-                    BackgroundImage = Properties.Resources.bkgr_jan,
+                    BackgroundImage = Properties.Resources.mnth_jan,
                     BackgroundImageLayout = ImageLayout.Stretch
                 };
 
@@ -42,7 +42,7 @@ namespace BudgetLedger.Controls.January
 
                 PictureBox foregroundPictureBox = new PictureBox
                 {
-                    Image = Properties.Resources.head_jan,
+                    Image = Properties.Resources.hedr_jan,
                     SizeMode = PictureBoxSizeMode.AutoSize,
                     BackColor = Color.Transparent
                 };

@@ -1,4 +1,5 @@
-﻿using BudgetLedger.Controls.April;
+﻿using BudgetLedger.Contacts;
+using BudgetLedger.Controls.April;
 using BudgetLedger.Controls.August;
 using BudgetLedger.Controls.December;
 using BudgetLedger.Controls.February;
@@ -11,17 +12,17 @@ using BudgetLedger.Controls.November;
 using BudgetLedger.Controls.October;
 using BudgetLedger.Controls.September;
 using BudgetLedger.Data;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Linq;
-using System.Windows.Forms;
-using System.Diagnostics;
 using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.Drawing;
 using System.IO;
+using System.Linq;
+using System.Windows.Forms;
 
 namespace BudgetLedger
 {
@@ -75,9 +76,9 @@ namespace BudgetLedger
                 string month = kvp.Key;
                 PictureBox button = kvp.Value;
 
-                System.Drawing.Image normalImage = Properties.Resources.ResourceManager.GetObject($"bkdr_{month}") as System.Drawing.Image;
-                System.Drawing.Image hoverImage = Properties.Resources.ResourceManager.GetObject($"bkdr_{month}_h") as System.Drawing.Image;
-                System.Drawing.Image clickImage = Properties.Resources.ResourceManager.GetObject($"bkdr_{month}_c") as System.Drawing.Image;
+                System.Drawing.Image normalImage = Properties.Resources.ResourceManager.GetObject($"butn_{month}") as System.Drawing.Image;
+                System.Drawing.Image hoverImage = Properties.Resources.ResourceManager.GetObject($"butn_{month}_h") as System.Drawing.Image;
+                System.Drawing.Image clickImage = Properties.Resources.ResourceManager.GetObject($"butn_{month}_cg") as System.Drawing.Image;
 
                 SetupMonthButton(button, normalImage, hoverImage, clickImage);
                 button.Cursor = Cursors.Hand;
@@ -315,7 +316,7 @@ namespace BudgetLedger
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu.Visible = false;
 
             // Set the background image for Panel2 when a month is selected
-            budgetLedgerMain_splitDisplay.Panel2.BackgroundImage = Properties.Resources.bkgr_sp2;
+            budgetLedgerMain_splitDisplay.Panel2.BackgroundImage = Properties.Resources.img_003;
             budgetLedgerMain_splitDisplay.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 
             // Load saved start total for the month
@@ -430,6 +431,11 @@ namespace BudgetLedger
 
         private void budgetLedgerMain_menuStrip_button_contacts_Click(object sender, EventArgs e)
         {
+            // Create an instance of the contacts form
+            contacts contactsForm = new contacts();
+
+            // Show the contacts form
+            contactsForm.Show();
         }
 
         private void budgetLedgerMain_menuStrip_button_saveDatabase_Click(object sender, EventArgs e)
