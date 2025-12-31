@@ -2,9 +2,20 @@
 
 **A powerful, offline-first budgeting tool for households, freelancers, and crypto users**
 
-<img width="1688" height="836" alt="image" src="https://github.com/user-attachments/assets/36306b73-8dab-4392-ab99-d279bb93c31f" />
+<img width="385" height="177" alt="image" src="https://github.com/user-attachments/assets/bb9e8bfd-617a-4d16-bf9e-f65dfc00933c" /> | <img width="385" height="177" alt="image" src="https://github.com/user-attachments/assets/bdcdec19-facc-493d-9acc-d0a4ac201943" />
 
-<img width="1688" height="836" alt="image" src="https://github.com/user-attachments/assets/af067313-cc25-4f98-add9-16453f4b0485" />
+<img width="1688" height="836" alt="image" src="https://github.com/user-attachments/assets/cc3395c7-9c1e-43b8-9899-7d8647eaa7d5" />
+<img width="1688" height="836" alt="image" src="https://github.com/user-attachments/assets/c697f86e-6da1-40d2-93d4-38e411fa6984" />
+
+<img width="1688" height="836" alt="image" src="https://github.com/user-attachments/assets/012353cc-bd6d-46bd-8762-65cfa97d91b5" />
+<img width="1688" height="836" alt="image" src="https://github.com/user-attachments/assets/26615b9e-750a-4de8-9e8b-833dc38c8b72" />
+<img width="322" height="534" alt="image" src="https://github.com/user-attachments/assets/27abbe33-ad00-41e7-9c29-08fa7af3f368" />
+
+
+
+
+
+
 
 ---
 
