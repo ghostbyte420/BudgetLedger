@@ -50,3 +50,16 @@ Customize BudgetLedger via the **menu strip** (top-right corner):
   > **For production use**, replace `Key` and `IV` with secure, environment-specific values (e.g., Windows DPAPI or Azure Key Vault).
 - **Database Backup**: Manually copy `budgetledger_YYYY.sqlite` to back up your data.
 - **First Run**: If no password file exists, the app will prompt you to create one.
+
+---
+
+## Troubleshooting
+
+| **Issue**                          | **Solution**                                                                                     |
+|------------------------------------|-------------------------------------------------------------------------------------------------|
+| Forgot password                    | Delete `PasswordConfig.txt` and restart the app to set a new password.                          |
+| PDF export fails                   | Ensure you have write permissions in the selected save location.                             |
+| Missing month buttons              | Verify all image resources (e.g., `butn_jan`, `butn_feb`) exist in the `Properties/Resources` folder. |
+| Database not saving                | Check that `budgetledger_YYYY.sqlite` is not set to "Read-Only" in file properties.             |
+| Error: "Failed to open calculator" | Ensure `calc.exe` is available (standard on Windows). If missing, reinstall Windows Calculator. |
+
