@@ -35,6 +35,8 @@ namespace BudgetLedger
         private Label lblExpensesPaidOut;
         private Label lblMonthlyEndTotal;
 
+        private EventHandler txtMonthlyStartTotal_TextChangedHandler;
+
         // Configuration options for label styling
         [Browsable(false)]
         [DefaultValue(false)]
@@ -67,6 +69,9 @@ namespace BudgetLedger
             InitializeMonthButtons();
             InitializeMonthSummaryPanel();
             budgetLedgerMain_menuStrip.Visible = false;
+
+            // Subscribe to the TextChanged event
+            // txtMonthlyStartTotal.TextChanged += txtMonthlyStartTotal_TextChanged;
         }
 
         private void InitializeMonthButtons()
@@ -141,14 +146,6 @@ namespace BudgetLedger
                 ForeColor = System.Drawing.Color.Green, // Always green
                 Font = new System.Drawing.Font("Segoe UI", fontSize, GetFontStyle())
             };
-            txtMonthlyStartTotal.TextChanged += (sender, e) =>
-            {
-                if (decimal.TryParse(txtMonthlyStartTotal.Text, out var startTotal))
-                {
-                    int month = DateTime.Now.Month;
-                    UpdateMonthlyEndTotal(startTotal, month);
-                }
-            };
 
             // Expenses Paid Out Label
             var lblExpensesPaidOutTitle = new Label
@@ -217,6 +214,7 @@ namespace BudgetLedger
 
             budgetLedgerMain_splitDisplay.Panel2.Controls.Add(monthSummaryPanel);
         }
+
 
         // Helper method to get the font style based on configuration
         private System.Drawing.FontStyle GetFontStyle()
@@ -327,26 +325,57 @@ namespace BudgetLedger
             budgetLedgerMain_splitDisplay_panel1_opacityPanel.Controls.Add(monthControl);
             budgetLedgerMain_menuStrip.Visible = true;
 
-            // Show summary panel and hide month buttons
             monthSummaryPanel.Visible = true;
             budgetLedgerMain_splitDisplay_panel2_opacityPanel_menu.Visible = false;
 
-            // Set the background image for Panel2 when a month is selected
             budgetLedgerMain_splitDisplay.Panel2.BackgroundImage = Properties.Resources.img_003;
-            budgetLedgerMain_splitDisplay.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            budgetLedgerMain_splitDisplay.Panel2.BackgroundImageLayout = ImageLayout.Stretch;
 
-            // Load saved start total for the month
             int monthNum = DateTime.ParseExact(month.Substring(0, 3), "MMM", System.Globalization.CultureInfo.CurrentCulture).Month;
+
+            // Unsubscribe from the TextChanged event to prevent incorrect triggers
+            if (txtMonthlyStartTotal_TextChangedHandler != null)
+            {
+                txtMonthlyStartTotal.TextChanged -= txtMonthlyStartTotal_TextChangedHandler;
+            }
+
             var summary = LedgerServices.MonthSummaries.GetByMonth(LedgerServices.LedgerYear, monthNum);
             if (summary.HasValue)
             {
                 txtMonthlyStartTotal.Text = summary.Value.StartTotal.ToString("N2");
-                UpdateMonthlyEndTotal(summary.Value.StartTotal, monthNum);
+                decimal expensesPaidOut = CalculateTotalExpensesForMonth(monthNum);
+                lblExpensesPaidOut.Text = expensesPaidOut.ToString("C");
+                decimal endTotal = summary.Value.StartTotal - expensesPaidOut;
+                lblMonthlyEndTotal.Text = endTotal.ToString("C");
+                lblMonthlyEndTotal.ForeColor = endTotal >= 0 ? System.Drawing.Color.Green : System.Drawing.Color.Red;
             }
             else
             {
                 txtMonthlyStartTotal.Text = "0.00";
-                UpdateMonthlyEndTotal(0, monthNum);
+                lblExpensesPaidOut.Text = "0.00";
+                lblMonthlyEndTotal.Text = "0.00";
+                lblMonthlyEndTotal.ForeColor = System.Drawing.Color.Red;
+            }
+
+            // Subscribe back to the TextChanged event with the correct month number
+            txtMonthlyStartTotal_TextChangedHandler = (sender, e) =>
+            {
+                if (decimal.TryParse(txtMonthlyStartTotal.Text, out var startTotal))
+                {
+                    UpdateMonthlyEndTotal(startTotal, monthNum);
+                }
+            };
+            txtMonthlyStartTotal.TextChanged += txtMonthlyStartTotal_TextChangedHandler;
+        }
+
+
+        // Define the TextChanged event handler method
+        private void txtMonthlyStartTotal_TextChanged(object sender, EventArgs e)
+        {
+            if (decimal.TryParse(txtMonthlyStartTotal.Text, out var startTotal))
+            {
+                int month = DateTime.Now.Month;
+                UpdateMonthlyEndTotal(startTotal, month);
             }
         }
 
@@ -357,8 +386,6 @@ namespace BudgetLedger
 
             lblExpensesPaidOut.Text = $"{expensesPaidOut:C}";
             lblMonthlyEndTotal.Text = $"{endTotal:C}";
-
-            // Set color for Monthly End Total
             lblMonthlyEndTotal.ForeColor = endTotal >= 0 ? System.Drawing.Color.Green : System.Drawing.Color.Red;
 
             // Save to database
@@ -369,6 +396,7 @@ namespace BudgetLedger
                 endTotal
             );
         }
+
 
         private decimal CalculateTotalExpensesForMonth(int month)
         {
