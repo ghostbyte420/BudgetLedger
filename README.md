@@ -16,10 +16,10 @@
 
 ---
 
-## 📌 Overview
+## Overview
 BudgetLedger replaces paper ledgers with a **password-protected**, **offline-first** Windows Forms application. It organizes expenses by month and category, calculates totals automatically, and exports reports as PDFs—**no CSV/Excel required**.
 
-### ✨ Key Features
+### Key Features
 - **12-Month Structure**: Each month has tabs for categories (Household, Taxes, Vehicles, etc.).
 - **Expense Tracking**: Log details like date, amount, payment method, and recipient.
 - **Automatic Summaries**: Displays **Monthly Start Total**, **Expenses Paid Out**, and **Monthly End Total** (color-coded for positive/negative balances).
@@ -37,14 +37,14 @@ BudgetLedger replaces paper ledgers with a **password-protected**, **offline-fir
 
 ---
 
-## 🔧 Configuration
+## Configuration
 Customize BudgetLedger via the **menu strip** (top-right corner):
 - **Password Reset**: Delete `PasswordConfig.txt` to reset the password on next launch
 - **Database Location**: The SQLite database (`budgetledger_YYYY.sqlite`) is saved in the application’s root directory by default for portability
 
 ---
 
-## 🚨 Security Notes
+## Security Notes
 - **Password Storage**: Passwords are encrypted using **AES-256** and stored locally in `PasswordConfig.txt`.
   > ⚠️ **Important**: The encryption key is hardcoded in `PasswordEncryption.cs`.
   > **For production use**, replace `Key` and `IV` with secure, environment-specific values (e.g., Windows DPAPI or Azure Key Vault).
