@@ -38,7 +38,6 @@ BudgetLedger replaces paper ledgers with a **password-protected**, **offline-fir
 ---
 
 ## Configuration
-Customize BudgetLedger via the **menu strip** (top-right corner):
 - **Password Reset**: Delete `PasswordConfig.txt` to reset the password on next launch
 - **Database Location**: The SQLite database (`budgetledger_YYYY.sqlite`) is saved in the application’s root directory by default for portability
 
