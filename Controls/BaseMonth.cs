@@ -46,7 +46,7 @@ namespace BudgetLedger
             {
                 #region Modify Categories As Needed
 
-                "Header", "Household", "Taxes", "Insurance", "Food", "Subscriptions", "Familycare", "Education", "Medicalcare", "Vehicles", "Vacation", "Donations", "Gifts", "Frivolous", "Emergency"
+                "Header", "Household", "Credit Cards", "Taxes", "Insurance", "Food", "Subscriptions", "Familycare", "Education", "Medicalcare", "Vehicles", "Vacation", "Donations", "Gifts", "Frivolous", "Emergency"
 
                 #endregion
             };
@@ -249,7 +249,7 @@ namespace BudgetLedger
             {
                 HeaderText = "Pay Method",
                 Name = "PaymentMethod",
-                Items = { "Credit", "Cash", "Crypto", "Voucher" },
+                Items = { "Credit Card", "Bank Account", "Cash", "Crypto", "Voucher" },
                 Width = 120,
                 DefaultCellStyle = { Alignment = DataGridViewContentAlignment.MiddleLeft, Font = new Font("Segoe UI", 9F) }
             });

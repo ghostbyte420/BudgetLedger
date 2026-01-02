@@ -405,7 +405,7 @@ namespace BudgetLedger
             {
                 #region Modify Categories As Needed
 
-                "Household", "Taxes", "Insurance", "Food", "Subscriptions",
+                "Household", "Credit Cards", "Taxes", "Insurance", "Food", "Subscriptions",
                 "Familycare", "Education", "Medicalcare",
                 "Vehicles", "Vacation",
                 "Donations", "Gifts", "Frivolous",
@@ -554,7 +554,7 @@ namespace BudgetLedger
             {
                 #region Modify Categories As Needed
 
-                "Household", "Taxes", "Insurance", "Food", "Subscriptions",
+                "Household", "Credit Cards", "Taxes", "Insurance", "Food", "Subscriptions",
                 "Familycare", "Education", "Medicalcare",
                 "Vehicles", "Vacation",
                 "Donations", "Gifts", "Frivolous",
