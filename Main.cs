@@ -417,7 +417,16 @@ namespace BudgetLedger
             foreach (var category in categories)
             {
                 var records = LedgerServices.Expenses.GetByScope(LedgerServices.LedgerYear, month, category);
-                total += records.Sum(r => r.AmountPaid ?? 0);
+                foreach (var record in records)
+                {
+                    // Only include "AmountPaid" if:
+                    // 1. PayMethod is NOT "Credit Card", OR
+                    // 2. Category IS "Credit Cards"
+                    if (record.PayMethod != "Credit Card" || category == "Credit Cards")
+                    {
+                        total += record.AmountPaid ?? 0;
+                    }
+                }
             }
             return total;
         }
@@ -538,7 +547,7 @@ namespace BudgetLedger
             // Hide the menu strip
             budgetLedgerMain_menuStrip.Visible = false;
         }
-      
+
         private void budgetLedgerMain_menuStrip_button_exportPDFReport_Click(object sender, EventArgs e)
         {
             // Acknowledge the QuestPDF license
@@ -552,13 +561,13 @@ namespace BudgetLedger
             // 2. Gather data for the current month
             var categories = new string[]
             {
-                #region Modify Categories As Needed
+        #region Modify Categories As Needed
 
-                "Household", "Credit Cards", "Taxes", "Insurance", "Food", "Subscriptions",
-                "Familycare", "Education", "Medicalcare",
-                "Vehicles", "Vacation",
-                "Donations", "Gifts", "Frivolous",
-                "Emergency"
+        "Household", "Credit Cards", "Taxes", "Insurance", "Food", "Subscriptions",
+        "Familycare", "Education", "Medicalcare",
+        "Vehicles", "Vacation",
+        "Donations", "Gifts", "Frivolous",
+        "Emergency"
 
                 #endregion
             };
@@ -659,12 +668,25 @@ namespace BudgetLedger
                                         // Table rows in the order they appear in the DataGridView
                                         foreach (var record in records)
                                         {
+                                            // Always include Expense and Date
                                             table.Cell().BorderBottom(0.5f).BorderColor(Colors.Grey.Lighten2).Padding(5)
                                                 .Text(record.Expense ?? "").Style(TextStyle.Default.FontSize(10));
                                             table.Cell().BorderBottom(0.5f).BorderColor(Colors.Grey.Lighten2).Padding(5)
                                                 .Text(record.Date?.ToShortDateString() ?? "").Style(TextStyle.Default.FontSize(10));
-                                            table.Cell().BorderBottom(0.5f).BorderColor(Colors.Grey.Lighten2).Padding(5)
-                                                .Text(record.AmountPaid?.ToString("C") ?? "").Style(TextStyle.Default.FontSize(10));
+
+                                            // Conditionally include Amount Paid or Last Four
+                                            if (record.PayMethod != "Credit Card" || category == "Credit Cards")
+                                            {
+                                                // Show Amount Paid for non-credit card payments or in Credit Cards tab
+                                                table.Cell().BorderBottom(0.5f).BorderColor(Colors.Grey.Lighten2).Padding(5)
+                                                    .Text(record.AmountPaid?.ToString("C") ?? "").Style(TextStyle.Default.FontSize(10));
+                                            }
+                                            else
+                                            {
+                                                // Show Last Four (Account Identifier) for credit card payments in non-Credit Cards tabs
+                                                table.Cell().BorderBottom(0.5f).BorderColor(Colors.Grey.Lighten2).Padding(5)
+                                                    .Text(record.LastFour ?? "").Style(TextStyle.Default.FontSize(10));
+                                            }
                                         }
                                     });
                                 column.Item().PaddingBottom(15);
